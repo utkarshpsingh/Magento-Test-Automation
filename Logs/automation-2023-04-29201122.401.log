@@ -1,0 +1,265 @@
+[DEBUG] 2023-04-29 20:11:23,349 InternalLoggerFactory.useLog4J2LoggerFactory() - Using Log4J2 as the default logging framework
+[DEBUG] 2023-04-29 20:11:23,364 ResourceLeakDetector.<clinit>() - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-04-29 20:11:23,364 ResourceLeakDetector.<clinit>() - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-04-29 20:11:23,368 ResourceLeakDetectorFactory.newResourceLeakDetector() - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5c14387a
+[DEBUG] 2023-04-29 20:11:23,384 PlatformDependent0.explicitNoUnsafeCause0() - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-04-29 20:11:23,386 PlatformDependent0.javaVersion0() - Java version: 11
+[DEBUG] 2023-04-29 20:11:23,388 PlatformDependent0.<clinit>() - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-04-29 20:11:23,388 PlatformDependent0.<clinit>() - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-04-29 20:11:23,389 PlatformDependent0.<clinit>() - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-04-29 20:11:23,390 PlatformDependent0.<clinit>() - java.nio.Buffer.address: available
+[DEBUG] 2023-04-29 20:11:23,390 PlatformDependent0.<clinit>() - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-04-29 20:11:23,391 PlatformDependent0.<clinit>() - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-04-29 20:11:23,392 PlatformDependent0.<clinit>() - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2f879bab
+[DEBUG] 2023-04-29 20:11:23,393 PlatformDependent0.<clinit>() - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-04-29 20:11:23,394 PlatformDependent.unsafeUnavailabilityCause0() - sun.misc.Unsafe: available
+[DEBUG] 2023-04-29 20:11:23,394 PlatformDependent.estimateMaxDirectMemory() - maxDirectMemory: 4190109696 bytes (maybe)
+[DEBUG] 2023-04-29 20:11:23,395 PlatformDependent.tmpdir0() - -Dio.netty.tmpdir: C:\Users\UTKARS~1\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-04-29 20:11:23,395 PlatformDependent.bitMode0() - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-04-29 20:11:23,395 PlatformDependent.isWindows0() - Platform: Windows
+[DEBUG] 2023-04-29 20:11:23,396 PlatformDependent.<clinit>() - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-04-29 20:11:23,396 PlatformDependent.<clinit>() - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-04-29 20:11:23,397 CleanerJava9.<clinit>() - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-04-29 20:11:23,398 PlatformDependent.<clinit>() - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-04-29 20:11:23,403 PlatformDependent.<clinit>() - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-04-29 20:11:23,420 InternalThreadLocalMap.<clinit>() - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-04-29 20:11:23,420 InternalThreadLocalMap.<clinit>() - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-04-29 20:11:23,541 JdkSslContext.<clinit>() - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-04-29 20:11:23,549 JdkSslContext.<clinit>() - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-04-29 20:11:23,567 MultithreadEventLoopGroup.<clinit>() - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2023-04-29 20:11:23,572 NioEventLoop.<clinit>() - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-04-29 20:11:23,578 NioEventLoop.<clinit>() - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-04-29 20:11:23,622 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.numHeapArenas: 16
+[DEBUG] 2023-04-29 20:11:23,622 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.numDirectArenas: 16
+[DEBUG] 2023-04-29 20:11:23,622 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-04-29 20:11:23,622 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-04-29 20:11:23,622 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-04-29 20:11:23,622 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-04-29 20:11:23,623 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-04-29 20:11:23,623 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-04-29 20:11:23,623 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-04-29 20:11:23,623 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-04-29 20:11:23,623 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-04-29 20:11:23,623 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-04-29 20:11:23,633 ByteBufUtil.<clinit>() - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-04-29 20:11:23,633 ByteBufUtil.<clinit>() - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-04-29 20:11:23,633 ByteBufUtil.<clinit>() - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-04-29 20:11:24,376 DefaultChannelId.<clinit>() - -Dio.netty.processId: 36588 (auto-detected)
+[DEBUG] 2023-04-29 20:11:24,379 NetUtil.<clinit>() - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-04-29 20:11:24,379 NetUtil.<clinit>() - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-04-29 20:11:24,596 NetUtilInitializations.determineLoopback() - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-04-29 20:11:24,597 NetUtil.run() - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-04-29 20:11:24,828 DefaultChannelId.<clinit>() - -Dio.netty.machineId: 00:15:5d:ff:fe:b6:48:b2 (auto-detected)
+[DEBUG] 2023-04-29 20:11:24,858 AbstractByteBuf.<clinit>() - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-04-29 20:11:24,865 AbstractByteBuf.<clinit>() - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-04-29 20:11:24,865 ResourceLeakDetectorFactory.newResourceLeakDetector() - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@206c213
+[DEBUG] 2023-04-29 20:11:24,885 Recycler.<clinit>() - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-04-29 20:11:24,885 Recycler.<clinit>() - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-04-29 20:11:24,886 Recycler.<clinit>() - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-04-29 20:11:24,886 Recycler.<clinit>() - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-04-29 20:11:25,769 Brotli.<clinit>() - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-04-29 20:11:25,962 ThreadLocalRandom.newSeed() - -Dio.netty.initialSeedUniquifier: 0x1f55239f696b80b6
+[INFO ] 2023-04-29 20:11:26,028 BaseSetupClass.LaunchBrowser() - DRIVER INITIALISED....!
+[INFO ] 2023-04-29 20:11:26,028 BaseSetupClass.LaunchBrowser() - DRIVER INITIALISED....!
+[INFO ] 2023-04-29 20:11:28,601 ReusableFunctions.launchURL() - https://magento.softwaretestingboard.com/ launched in browser
+[INFO ] 2023-04-29 20:11:30,637 ReusableFunctions.launchURL() - https://magento.softwaretestingboard.com/ launched in browser
+[INFO ] 2023-04-29 20:11:31,673 ReusableFunctions.clickObject() - SingIn[Header] Button Clicked
+[INFO ] 2023-04-29 20:11:33,875 ReusableFunctions.clickObject() - Click Account Link Clicked
+[INFO ] 2023-04-29 20:11:33,888 ReusableFunctions.clickObject() - username clicked Clicked
+[INFO ] 2023-04-29 20:11:35,020 ReusableFunctions.typeValue() - utkarshpsingh@gmail.com Typed in  userName
+[INFO ] 2023-04-29 20:11:36,112 ReusableFunctions.clickObject() - FirstName Clicked
+[INFO ] 2023-04-29 20:11:37,119 ReusableFunctions.clickObject() - password clicked Clicked
+[INFO ] 2023-04-29 20:11:37,153 ReusableFunctions.typeValue() - Rohit Typed in  firstName
+[INFO ] 2023-04-29 20:11:38,164 ReusableFunctions.typeValue() - System2023 Typed in  password
+[INFO ] 2023-04-29 20:11:39,257 ReusableFunctions.clickObject() - LastName Clicked
+[INFO ] 2023-04-29 20:11:40,294 ReusableFunctions.typeValue() - Sharma Typed in  LastName
+[INFO ] 2023-04-29 20:11:42,426 ReusableFunctions.clickObject() - Email Clicked
+[INFO ] 2023-04-29 20:11:43,142 ReusableFunctions.clickObject() - SignIn Clicked
+[INFO ] 2023-04-29 20:11:43,499 ReusableFunctions.typeValue() - rohitsharma@gmail.com Typed in  Email
+[INFO ] 2023-04-29 20:11:45,646 ReusableFunctions.clickObject() - Password Clicked
+[INFO ] 2023-04-29 20:11:46,737 ReusableFunctions.typeValue() - System2023 Typed in  Password
+[INFO ] 2023-04-29 20:11:48,840 ReusableFunctions.clickObject() - Password Clicked
+[INFO ] 2023-04-29 20:11:49,312 ReusableFunctions.getText() - Welcome, Utkarsh Pratap Singh! Extracted from element
+[INFO ] 2023-04-29 20:11:49,315 LoginController.waitForHomePageHeader() - The homepage user welcome screen is shown as : Welcome, Utkarsh Pratap Singh!
+[INFO ] 2023-04-29 20:11:49,316 LogIn_Test.signInTest() - Hey..! Login Successful....!
+[INFO ] 2023-04-29 20:11:49,890 ReusableFunctions.typeValue() - System2023 Typed in  Confirm Password
+[INFO ] 2023-04-29 20:11:49,890 CreateAccountTest.createUserAccountSuccessfully() - Hey..! Account Created Successfully....!
+[INFO ] 2023-04-29 20:11:51,660 BaseSetupClass.LaunchBrowser() - DRIVER INITIALISED....!
+[INFO ] 2023-04-29 20:11:52,509 BaseSetupClass.LaunchBrowser() - DRIVER INITIALISED....!
+[INFO ] 2023-04-29 20:11:54,864 ReusableFunctions.launchURL() - https://magento.softwaretestingboard.com/ launched in browser
+[INFO ] 2023-04-29 20:11:57,587 ReusableFunctions.launchURL() - https://magento.softwaretestingboard.com/ launched in browser
+[INFO ] 2023-04-29 20:11:58,046 ReusableFunctions.clickObject() - SingIn[Header] Button Clicked
+[INFO ] 2023-04-29 20:12:00,289 ReusableFunctions.clickObject() - username clicked Clicked
+[INFO ] 2023-04-29 20:12:00,673 ReusableFunctions.clickObject() - SingIn[Header] Button Clicked
+[INFO ] 2023-04-29 20:12:01,358 ReusableFunctions.typeValue() - utkarshsingh@gmail.com Typed in  userName
+[INFO ] 2023-04-29 20:12:02,842 ReusableFunctions.clickObject() - username clicked Clicked
+[INFO ] 2023-04-29 20:12:03,443 ReusableFunctions.clickObject() - password clicked Clicked
+[INFO ] 2023-04-29 20:12:03,914 ReusableFunctions.typeValue() - utkarshpsingh@gmail.com Typed in  userName
+[INFO ] 2023-04-29 20:12:04,498 ReusableFunctions.typeValue() - System2024 Typed in  password
+[INFO ] 2023-04-29 20:12:06,016 ReusableFunctions.clickObject() - password clicked Clicked
+[INFO ] 2023-04-29 20:12:07,054 ReusableFunctions.typeValue() - System2023 Typed in  password
+[INFO ] 2023-04-29 20:12:10,397 ReusableFunctions.clickObject() - SignIn Clicked
+[INFO ] 2023-04-29 20:12:11,560 ReusableFunctions.clickObject() - SignIn Clicked
+[INFO ] 2023-04-29 20:12:11,560 LoginController.loginToApplication() - Hey..! Login Successful....!
+[INFO ] 2023-04-29 20:12:12,465 ReusableFunctions.getText() - Incorrect CAPTCHA Extracted from element
+[INFO ] 2023-04-29 20:12:14,492 BaseSetupClass.LaunchBrowser() - DRIVER INITIALISED....!
+[INFO ] 2023-04-29 20:12:15,329 ReusableFunctions.clickObject() - Gear Link Clicked
+[INFO ] 2023-04-29 20:12:16,982 ReusableFunctions.launchURL() - https://magento.softwaretestingboard.com/ launched in browser
+[INFO ] 2023-04-29 20:12:18,708 ReusableFunctions.clickObject() - Watches Link Clicked
+[INFO ] 2023-04-29 20:12:20,093 ReusableFunctions.clickObject() - SingIn[Header] Button Clicked
+[INFO ] 2023-04-29 20:12:22,253 ReusableFunctions.clickObject() - username clicked Clicked
+[INFO ] 2023-04-29 20:12:23,320 ReusableFunctions.typeValue() - utkarshpsingh@gmail.com Typed in  userName
+[INFO ] 2023-04-29 20:12:24,047 ReusableFunctions.clickObject() - Add To Wishlist Clicked
+[INFO ] 2023-04-29 20:12:25,406 ReusableFunctions.clickObject() - password clicked Clicked
+[INFO ] 2023-04-29 20:12:26,440 ReusableFunctions.typeValue() - System2023 Typed in  password
+[INFO ] 2023-04-29 20:12:28,174 ReusableFunctions.clickObject() - User Details dropdown Clicked
+[INFO ] 2023-04-29 20:12:28,207 ReusableFunctions.elementPresentOrEnabled() - Add To Wishlist is Present on the page
+[INFO ] 2023-04-29 20:12:31,274 ReusableFunctions.clickObject() - SignIn Clicked
+[INFO ] 2023-04-29 20:12:31,275 LoginController.loginToApplication() - Hey..! Login Successful....!
+[INFO ] 2023-04-29 20:12:32,995 ReusableFunctions.clickObject() - Add To Wishlist Clicked
+[INFO ] 2023-04-29 20:12:32,995 AddToWishListTest.addItemToWishlist() - Hey..! Account Created Successfully....!
+[INFO ] 2023-04-29 20:12:35,012 BaseSetupClass.LaunchBrowser() - DRIVER INITIALISED....!
+[INFO ] 2023-04-29 20:12:35,417 ReusableFunctions.clickObject() - Gear Link Clicked
+[INFO ] 2023-04-29 20:12:38,920 ReusableFunctions.launchURL() - https://magento.softwaretestingboard.com/ launched in browser
+[INFO ] 2023-04-29 20:12:39,243 ReusableFunctions.clickObject() - Watches Link Clicked
+[INFO ] 2023-04-29 20:12:41,497 ReusableFunctions.clickObject() - Add To Cart Clicked
+[INFO ] 2023-04-29 20:12:42,172 ReusableFunctions.clickObject() - SingIn[Header] Button Clicked
+[INFO ] 2023-04-29 20:12:44,381 ReusableFunctions.clickObject() - username clicked Clicked
+[INFO ] 2023-04-29 20:12:45,448 ReusableFunctions.typeValue() - utkarshpsingh@gmail.com Typed in  userName
+[INFO ] 2023-04-29 20:12:47,553 ReusableFunctions.clickObject() - password clicked Clicked
+[INFO ] 2023-04-29 20:12:48,597 ReusableFunctions.typeValue() - System2023 Typed in  password
+[INFO ] 2023-04-29 20:12:48,600 ReusableFunctions.clickObject() - Show Cart Clicked
+[INFO ] 2023-04-29 20:12:52,924 ReusableFunctions.clickObject() - View/Edit Cart Clicked
+[INFO ] 2023-04-29 20:12:53,076 ReusableFunctions.elementPresentOrEnabled() - Added To cart Item is Present on the page
+[INFO ] 2023-04-29 20:12:53,183 ReusableFunctions.clickObject() - SignIn Clicked
+[INFO ] 2023-04-29 20:12:53,184 LoginController.loginToApplication() - Hey..! Login Successful....!
+[INFO ] 2023-04-29 20:12:55,222 ReusableFunctions.getText() - $92.00 Extracted from element
+[INFO ] 2023-04-29 20:12:56,427 ReusableFunctions.clickObject() - Gear Link Clicked
+[INFO ] 2023-04-29 20:12:59,069 ReusableFunctions.clickObject() - Remove Item From Cart Clicked
+[INFO ] 2023-04-29 20:13:00,065 ReusableFunctions.clickObject() - Watches Link Clicked
+[INFO ] 2023-04-29 20:13:02,282 ReusableFunctions.clickObject() - Add To Cart Clicked
+[INFO ] 2023-04-29 20:13:09,424 ReusableFunctions.clickObject() - Show Cart Clicked
+[INFO ] 2023-04-29 20:13:13,325 ReusableFunctions.clickObject() - Proceed To Checkout Clicked
+[INFO ] 2023-04-29 20:13:15,170 ReusableFunctions.elementPresentOrEnabled() - Shipping Page Title is Present on the page
+[INFO ] 2023-04-29 20:13:15,654 ReusableFunctions.scrollIntoView() - Next Button scrolled into view 
+[INFO ] 2023-04-29 20:13:17,786 ReusableFunctions.clickObject() - Next Button Clicked
+[INFO ] 2023-04-29 20:13:17,823 ReusableFunctions.elementPresentOrEnabled() - PaymentPage Title is Present on the page
+[INFO ] 2023-04-29 20:13:22,094 ReusableFunctions.clickObject() - Place Order Button Clicked
+[INFO ] 2023-04-29 20:13:27,240 ReusableFunctions.getText() - Thank you for your purchase! Extracted from element
+[INFO ] 2023-04-29 20:13:27,274 ReusableFunctions.elementPresentOrEnabled() - Order Number is Present on the page
+[INFO ] 2023-04-29 20:13:29,356 ReusableFunctions.getText() - 000006586 Extracted from element
+[INFO ] 2023-04-29 20:13:29,356 ShoppingCartController.verifyOrderSuccessfullyPlaced() - Order successfully place: ********Order-No: 000006586 ********
+[INFO ] 2023-04-29 20:13:31,230 BaseSetupClass.LaunchBrowser() - DRIVER INITIALISED....!
+[INFO ] 2023-04-29 20:13:33,411 ReusableFunctions.launchURL() - https://magento.softwaretestingboard.com/ launched in browser
+[INFO ] 2023-04-29 20:13:36,506 ReusableFunctions.clickObject() - SingIn[Header] Button Clicked
+[INFO ] 2023-04-29 20:13:38,705 ReusableFunctions.clickObject() - username clicked Clicked
+[INFO ] 2023-04-29 20:13:39,765 ReusableFunctions.typeValue() - utkarshpsingh@gmail.com Typed in  userName
+[INFO ] 2023-04-29 20:13:41,860 ReusableFunctions.clickObject() - password clicked Clicked
+[INFO ] 2023-04-29 20:13:42,904 ReusableFunctions.typeValue() - System2023 Typed in  password
+[INFO ] 2023-04-29 20:13:47,849 ReusableFunctions.clickObject() - SignIn Clicked
+[INFO ] 2023-04-29 20:13:47,850 LoginController.loginToApplication() - Hey..! Login Successful....!
+[INFO ] 2023-04-29 20:13:51,530 ReusableFunctions.clickObject() - Gear Link Clicked
+[INFO ] 2023-04-29 20:13:55,108 ReusableFunctions.clickObject() - Watches Link Clicked
+[INFO ] 2023-04-29 20:13:57,406 ReusableFunctions.clickObject() - Add To Cart Clicked
+[INFO ] 2023-04-29 20:14:04,596 ReusableFunctions.clickObject() - Show Cart Clicked
+[INFO ] 2023-04-29 20:14:04,639 ReusableFunctions.elementPresentOrEnabled() - Price On Show Cart is Present on the page
+[INFO ] 2023-04-29 20:14:06,755 ReusableFunctions.getText() - $49.00 Extracted from element
+[INFO ] 2023-04-29 20:14:10,864 ReusableFunctions.clickObject() - Proceed To Checkout Clicked
+[INFO ] 2023-04-29 20:14:12,867 ReusableFunctions.elementPresentOrEnabled() - Shipping Page Title is Present on the page
+[INFO ] 2023-04-29 20:14:13,016 ReusableFunctions.scrollIntoView() - Next Button scrolled into view 
+[INFO ] 2023-04-29 20:14:15,130 ReusableFunctions.clickObject() - Next Button Clicked
+[INFO ] 2023-04-29 20:14:15,167 ReusableFunctions.elementPresentOrEnabled() - PaymentPage Title is Present on the page
+[INFO ] 2023-04-29 20:14:19,389 ReusableFunctions.clickObject() - Place Order Button Clicked
+[INFO ] 2023-04-29 20:14:24,603 ReusableFunctions.getText() - Thank you for your purchase! Extracted from element
+[INFO ] 2023-04-29 20:14:24,650 ReusableFunctions.elementPresentOrEnabled() - Order Number is Present on the page
+[INFO ] 2023-04-29 20:14:26,812 ReusableFunctions.getText() - 000006587 Extracted from element
+[INFO ] 2023-04-29 20:14:26,812 ShoppingCartController.verifyOrderSuccessfullyPlaced() - Order successfully place: ********Order-No: 000006587 ********
+[INFO ] 2023-04-29 20:14:30,890 ReusableFunctions.clickObject() - Order Link Clicked
+[INFO ] 2023-04-29 20:14:30,967 ReusableFunctions.elementPresentOrEnabled() - PaymentPage Title is Present on the page
+[INFO ] 2023-04-29 20:14:33,074 ReusableFunctions.getText() - Order # 000006587 Extracted from element
+[INFO ] 2023-04-29 20:14:33,075 ShoppingCartController.VerifyOrderDetailsOnPage() - Order Details Valid Actual:Order # 000006587 and expected as: 000006587
+[INFO ] 2023-04-29 20:14:34,995 BaseSetupClass.LaunchBrowser() - DRIVER INITIALISED....!
+[INFO ] 2023-04-29 20:14:39,152 ReusableFunctions.launchURL() - https://magento.softwaretestingboard.com/ launched in browser
+[INFO ] 2023-04-29 20:14:42,263 ReusableFunctions.clickObject() - SingIn[Header] Button Clicked
+[INFO ] 2023-04-29 20:14:44,452 ReusableFunctions.clickObject() - username clicked Clicked
+[INFO ] 2023-04-29 20:14:45,520 ReusableFunctions.typeValue() - utkarshpsingh@gmail.com Typed in  userName
+[INFO ] 2023-04-29 20:14:47,598 ReusableFunctions.clickObject() - password clicked Clicked
+[INFO ] 2023-04-29 20:14:48,632 ReusableFunctions.typeValue() - System2023 Typed in  password
+[INFO ] 2023-04-29 20:14:53,148 ReusableFunctions.clickObject() - SignIn Clicked
+[INFO ] 2023-04-29 20:14:53,148 LoginController.loginToApplication() - Hey..! Login Successful....!
+[INFO ] 2023-04-29 20:14:56,914 ReusableFunctions.clickObject() - Gear Link Clicked
+[INFO ] 2023-04-29 20:15:00,180 ReusableFunctions.clickObject() - Watches Link Clicked
+[INFO ] 2023-04-29 20:15:02,494 ReusableFunctions.clickObject() - Add To Cart Clicked
+[INFO ] 2023-04-29 20:15:09,702 ReusableFunctions.clickObject() - Show Cart Clicked
+[INFO ] 2023-04-29 20:15:09,743 ReusableFunctions.elementPresentOrEnabled() - Price On Show Cart is Present on the page
+[INFO ] 2023-04-29 20:15:11,803 ReusableFunctions.getText() - $54.00 Extracted from element
+[INFO ] 2023-04-29 20:15:15,754 ReusableFunctions.clickObject() - Proceed To Checkout Clicked
+[INFO ] 2023-04-29 20:15:17,564 ReusableFunctions.elementPresentOrEnabled() - Shipping Page Title is Present on the page
+[INFO ] 2023-04-29 20:15:18,220 ReusableFunctions.scrollIntoView() - Next Button scrolled into view 
+[INFO ] 2023-04-29 20:15:20,350 ReusableFunctions.clickObject() - Next Button Clicked
+[INFO ] 2023-04-29 20:15:20,390 ReusableFunctions.elementPresentOrEnabled() - PaymentPage Title is Present on the page
+[INFO ] 2023-04-29 20:15:24,631 ReusableFunctions.clickObject() - Place Order Button Clicked
+[INFO ] 2023-04-29 20:15:29,764 ReusableFunctions.getText() - Thank you for your purchase! Extracted from element
+[INFO ] 2023-04-29 20:15:29,805 ReusableFunctions.elementPresentOrEnabled() - Order Number is Present on the page
+[INFO ] 2023-04-29 20:15:31,903 ReusableFunctions.getText() - 000006588 Extracted from element
+[INFO ] 2023-04-29 20:15:31,903 ShoppingCartController.verifyOrderSuccessfullyPlaced() - Order successfully place: ********Order-No: 000006588 ********
+[INFO ] 2023-04-29 20:15:35,518 ReusableFunctions.clickObject() - Order Link Clicked
+[INFO ] 2023-04-29 20:15:35,596 ReusableFunctions.elementPresentOrEnabled() - PaymentPage Title is Present on the page
+[INFO ] 2023-04-29 20:15:37,712 ReusableFunctions.getText() - Order # 000006588 Extracted from element
+[INFO ] 2023-04-29 20:15:37,712 ShoppingCartController.VerifyOrderDetailsOnPage() - Order Details Valid Actual:Order # 000006588 and expected as: 000006588
+[INFO ] 2023-04-29 20:15:39,647 BaseSetupClass.LaunchBrowser() - DRIVER INITIALISED....!
+[INFO ] 2023-04-29 20:15:41,657 ReusableFunctions.launchURL() - https://magento.softwaretestingboard.com/ launched in browser
+[INFO ] 2023-04-29 20:15:44,797 ReusableFunctions.clickObject() - SingIn[Header] Button Clicked
+[INFO ] 2023-04-29 20:15:46,966 ReusableFunctions.clickObject() - username clicked Clicked
+[INFO ] 2023-04-29 20:15:48,028 ReusableFunctions.typeValue() - utkarshpsingh@gmail.com Typed in  userName
+[INFO ] 2023-04-29 20:15:50,115 ReusableFunctions.clickObject() - password clicked Clicked
+[INFO ] 2023-04-29 20:15:51,158 ReusableFunctions.typeValue() - System2023 Typed in  password
+[INFO ] 2023-04-29 20:15:56,011 ReusableFunctions.clickObject() - SignIn Clicked
+[INFO ] 2023-04-29 20:15:56,011 LoginController.loginToApplication() - Hey..! Login Successful....!
+[INFO ] 2023-04-29 20:15:59,559 ReusableFunctions.clickObject() - Gear Link Clicked
+[INFO ] 2023-04-29 20:16:03,282 ReusableFunctions.clickObject() - Watches Link Clicked
+[INFO ] 2023-04-29 20:16:05,586 ReusableFunctions.clickObject() - Add To Cart Clicked
+[INFO ] 2023-04-29 20:16:12,769 ReusableFunctions.clickObject() - Show Cart Clicked
+[INFO ] 2023-04-29 20:16:12,807 ReusableFunctions.elementPresentOrEnabled() - Price On Show Cart is Present on the page
+[INFO ] 2023-04-29 20:16:14,896 ReusableFunctions.getText() - $92.00 Extracted from element
+[INFO ] 2023-04-29 20:16:19,017 ReusableFunctions.clickObject() - Proceed To Checkout Clicked
+[INFO ] 2023-04-29 20:16:21,036 ReusableFunctions.elementPresentOrEnabled() - Shipping Page Title is Present on the page
+[INFO ] 2023-04-29 20:16:21,120 ReusableFunctions.scrollIntoView() - Next Button scrolled into view 
+[INFO ] 2023-04-29 20:16:23,238 ReusableFunctions.clickObject() - Next Button Clicked
+[INFO ] 2023-04-29 20:16:23,278 ReusableFunctions.elementPresentOrEnabled() - PaymentPage Title is Present on the page
+[INFO ] 2023-04-29 20:16:27,517 ReusableFunctions.clickObject() - Place Order Button Clicked
+[INFO ] 2023-04-29 20:16:32,749 ReusableFunctions.getText() - Thank you for your purchase! Extracted from element
+[INFO ] 2023-04-29 20:16:32,799 ReusableFunctions.elementPresentOrEnabled() - Order Number is Present on the page
+[INFO ] 2023-04-29 20:16:34,946 ReusableFunctions.getText() - 000006589 Extracted from element
+[INFO ] 2023-04-29 20:16:34,946 ShoppingCartController.verifyOrderSuccessfullyPlaced() - Order successfully place: ********Order-No: 000006589 ********
+[INFO ] 2023-04-29 20:16:38,797 ReusableFunctions.clickObject() - Order Link Clicked
+[INFO ] 2023-04-29 20:16:38,877 ReusableFunctions.elementPresentOrEnabled() - PaymentPage Title is Present on the page
+[INFO ] 2023-04-29 20:16:40,949 ReusableFunctions.getText() - Order # 000006589 Extracted from element
+[INFO ] 2023-04-29 20:16:40,949 ShoppingCartController.VerifyOrderDetailsOnPage() - Order Details Valid Actual:Order # 000006589 and expected as: 000006589
+[INFO ] 2023-04-29 20:16:42,907 BaseSetupClass.LaunchBrowser() - DRIVER INITIALISED....!
+[INFO ] 2023-04-29 20:16:47,239 ReusableFunctions.launchURL() - https://magento.softwaretestingboard.com/ launched in browser
+[INFO ] 2023-04-29 20:16:50,309 ReusableFunctions.clickObject() - SingIn[Header] Button Clicked
+[INFO ] 2023-04-29 20:16:52,481 ReusableFunctions.clickObject() - username clicked Clicked
+[INFO ] 2023-04-29 20:16:53,546 ReusableFunctions.typeValue() - utkarshpsingh@gmail.com Typed in  userName
+[INFO ] 2023-04-29 20:16:55,640 ReusableFunctions.clickObject() - password clicked Clicked
+[INFO ] 2023-04-29 20:16:56,669 ReusableFunctions.typeValue() - System2023 Typed in  password
+[INFO ] 2023-04-29 20:17:01,049 ReusableFunctions.clickObject() - SignIn Clicked
+[INFO ] 2023-04-29 20:17:01,049 LoginController.loginToApplication() - Hey..! Login Successful....!
+[INFO ] 2023-04-29 20:17:04,732 ReusableFunctions.clickObject() - Gear Link Clicked
+[INFO ] 2023-04-29 20:17:08,507 ReusableFunctions.clickObject() - Watches Link Clicked
+[INFO ] 2023-04-29 20:17:10,803 ReusableFunctions.clickObject() - Add To Cart Clicked
+[INFO ] 2023-04-29 20:17:18,017 ReusableFunctions.clickObject() - Show Cart Clicked
+[INFO ] 2023-04-29 20:17:21,649 ReusableFunctions.clickObject() - Proceed To Checkout Clicked
+[INFO ] 2023-04-29 20:17:23,356 ReusableFunctions.elementPresentOrEnabled() - Shipping Page Title is Present on the page
+[INFO ] 2023-04-29 20:17:23,893 ReusableFunctions.scrollIntoView() - Next Button scrolled into view 
+[INFO ] 2023-04-29 20:17:26,033 ReusableFunctions.clickObject() - Next Button Clicked
+[INFO ] 2023-04-29 20:17:26,091 ReusableFunctions.elementPresentOrEnabled() - PaymentPage Title is Present on the page
+[INFO ] 2023-04-29 20:17:30,100 ReusableFunctions.clickObject() - Place Order Button Clicked
+[INFO ] 2023-04-29 20:17:35,249 ReusableFunctions.getText() - Thank you for your purchase! Extracted from element
+[INFO ] 2023-04-29 20:17:35,296 ReusableFunctions.elementPresentOrEnabled() - Order Number is Present on the page
+[INFO ] 2023-04-29 20:17:37,432 ReusableFunctions.getText() - 000006590 Extracted from element
+[INFO ] 2023-04-29 20:17:37,432 ShoppingCartController.verifyOrderSuccessfullyPlaced() - Order successfully place: ********Order-No: 000006590 ********
+[INFO ] 2023-04-29 20:17:41,097 ReusableFunctions.clickObject() - Order Link Clicked
+[INFO ] 2023-04-29 20:17:41,192 ReusableFunctions.elementPresentOrEnabled() - PaymentPage Title is Present on the page
+[INFO ] 2023-04-29 20:17:43,319 ReusableFunctions.getText() - Order # 000006590 Extracted from element
+[INFO ] 2023-04-29 20:17:43,319 ShoppingCartController.VerifyOrderDetailsOnPage() - Order Details Valid Actual:Order # 000006590 and expected as: 000006590

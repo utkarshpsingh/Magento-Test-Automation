@@ -1,0 +1,121 @@
+[DEBUG] 2023-04-29 14:44:17,022 InternalLoggerFactory.useLog4J2LoggerFactory() - Using Log4J2 as the default logging framework
+[DEBUG] 2023-04-29 14:44:17,036 ResourceLeakDetector.<clinit>() - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-04-29 14:44:17,037 ResourceLeakDetector.<clinit>() - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-04-29 14:44:17,041 ResourceLeakDetectorFactory.newResourceLeakDetector() - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2903c6ff
+[DEBUG] 2023-04-29 14:44:17,059 PlatformDependent0.explicitNoUnsafeCause0() - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-04-29 14:44:17,060 PlatformDependent0.javaVersion0() - Java version: 11
+[DEBUG] 2023-04-29 14:44:17,063 PlatformDependent0.<clinit>() - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-04-29 14:44:17,064 PlatformDependent0.<clinit>() - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-04-29 14:44:17,065 PlatformDependent0.<clinit>() - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-04-29 14:44:17,066 PlatformDependent0.<clinit>() - java.nio.Buffer.address: available
+[DEBUG] 2023-04-29 14:44:17,067 PlatformDependent0.<clinit>() - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-04-29 14:44:17,068 PlatformDependent0.<clinit>() - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-04-29 14:44:17,069 PlatformDependent0.<clinit>() - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9a7a808
+[DEBUG] 2023-04-29 14:44:17,070 PlatformDependent0.<clinit>() - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-04-29 14:44:17,071 PlatformDependent.unsafeUnavailabilityCause0() - sun.misc.Unsafe: available
+[DEBUG] 2023-04-29 14:44:17,071 PlatformDependent.estimateMaxDirectMemory() - maxDirectMemory: 4190109696 bytes (maybe)
+[DEBUG] 2023-04-29 14:44:17,072 PlatformDependent.tmpdir0() - -Dio.netty.tmpdir: C:\Users\UTKARS~1\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-04-29 14:44:17,072 PlatformDependent.bitMode0() - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-04-29 14:44:17,072 PlatformDependent.isWindows0() - Platform: Windows
+[DEBUG] 2023-04-29 14:44:17,074 PlatformDependent.<clinit>() - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-04-29 14:44:17,074 PlatformDependent.<clinit>() - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-04-29 14:44:17,076 CleanerJava9.<clinit>() - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-04-29 14:44:17,076 PlatformDependent.<clinit>() - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-04-29 14:44:17,086 PlatformDependent.<clinit>() - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-04-29 14:44:17,109 InternalThreadLocalMap.<clinit>() - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-04-29 14:44:17,110 InternalThreadLocalMap.<clinit>() - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-04-29 14:44:17,308 JdkSslContext.<clinit>() - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-04-29 14:44:17,308 JdkSslContext.<clinit>() - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-04-29 14:44:17,343 MultithreadEventLoopGroup.<clinit>() - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2023-04-29 14:44:17,355 NioEventLoop.<clinit>() - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-04-29 14:44:17,355 NioEventLoop.<clinit>() - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-04-29 14:44:17,395 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.numHeapArenas: 16
+[DEBUG] 2023-04-29 14:44:17,395 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.numDirectArenas: 16
+[DEBUG] 2023-04-29 14:44:17,395 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-04-29 14:44:17,395 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-04-29 14:44:17,396 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-04-29 14:44:17,396 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-04-29 14:44:17,396 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-04-29 14:44:17,396 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-04-29 14:44:17,396 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-04-29 14:44:17,396 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-04-29 14:44:17,396 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-04-29 14:44:17,396 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-04-29 14:44:17,405 ByteBufUtil.<clinit>() - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-04-29 14:44:17,405 ByteBufUtil.<clinit>() - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-04-29 14:44:17,405 ByteBufUtil.<clinit>() - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-04-29 14:44:18,230 DefaultChannelId.<clinit>() - -Dio.netty.processId: 12780 (auto-detected)
+[DEBUG] 2023-04-29 14:44:18,233 NetUtil.<clinit>() - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-04-29 14:44:18,233 NetUtil.<clinit>() - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-04-29 14:44:18,455 NetUtilInitializations.determineLoopback() - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-04-29 14:44:18,456 NetUtil.run() - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-04-29 14:44:18,687 DefaultChannelId.<clinit>() - -Dio.netty.machineId: 00:15:5d:ff:fe:b6:48:b2 (auto-detected)
+[DEBUG] 2023-04-29 14:44:18,730 AbstractByteBuf.<clinit>() - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-04-29 14:44:18,731 AbstractByteBuf.<clinit>() - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-04-29 14:44:18,731 ResourceLeakDetectorFactory.newResourceLeakDetector() - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7177e1b4
+[DEBUG] 2023-04-29 14:44:18,751 Recycler.<clinit>() - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-04-29 14:44:18,752 Recycler.<clinit>() - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-04-29 14:44:18,752 Recycler.<clinit>() - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-04-29 14:44:18,752 Recycler.<clinit>() - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-04-29 14:44:19,319 Brotli.<clinit>() - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-04-29 14:44:19,431 ThreadLocalRandom.newSeed() - -Dio.netty.initialSeedUniquifier: 0x458630a2a34dd750
+[INFO ] 2023-04-29 14:44:19,469 BaseSetupClass.LaunchBrowser() - DRIVER INITIALISED....!
+[INFO ] 2023-04-29 14:44:40,784 ReusableFunctions.launchURL() - https://magento.softwaretestingboard.com/ launched in browser
+[INFO ] 2023-04-29 14:44:43,982 ReusableFunctions.clickObject() - SingIn[Header] Button Clicked
+[INFO ] 2023-04-29 14:44:46,229 ReusableFunctions.clickObject() - username clicked Clicked
+[INFO ] 2023-04-29 14:44:47,324 ReusableFunctions.typeValue() - utkarshpsingh@gmail.com Typed in  userName
+[INFO ] 2023-04-29 14:44:49,500 ReusableFunctions.clickObject() - password clicked Clicked
+[INFO ] 2023-04-29 14:44:50,546 ReusableFunctions.typeValue() - System2023 Typed in  password
+[INFO ] 2023-04-29 14:44:55,032 ReusableFunctions.clickObject() - SignIn Clicked
+[INFO ] 2023-04-29 14:44:55,033 LoginController.loginToApplication() - Hey..! Login Successful....!
+[INFO ] 2023-04-29 14:44:58,637 ReusableFunctions.clickObject() - Gear Link Clicked
+[INFO ] 2023-04-29 14:45:02,554 ReusableFunctions.clickObject() - Watches Link Clicked
+[INFO ] 2023-04-29 14:45:04,858 ReusableFunctions.clickObject() - Add To Cart Clicked
+[INFO ] 2023-04-29 14:45:12,006 ReusableFunctions.clickObject() - Show Cart Clicked
+[INFO ] 2023-04-29 14:45:15,897 ReusableFunctions.clickObject() - Proceed To Checkout Clicked
+[INFO ] 2023-04-29 14:45:20,216 ReusableFunctions.elementPresentOrEnabled() - Shipping Page Title is Present on the page
+[INFO ] 2023-04-29 14:45:20,839 ReusableFunctions.scrollIntoView() - Next Button scrolled into view 
+[INFO ] 2023-04-29 14:45:22,963 ReusableFunctions.clickObject() - Next Button Clicked
+[INFO ] 2023-04-29 14:45:23,012 ReusableFunctions.elementPresentOrEnabled() - PaymentPage Title is Present on the page
+[INFO ] 2023-04-29 14:45:29,545 ReusableFunctions.clickObject() - Place Order Button Clicked
+[INFO ] 2023-04-29 14:45:29,642 ReusableFunctions.getText() - Checkout Extracted from element
+[INFO ] 2023-04-29 14:45:31,814 BaseSetupClass.LaunchBrowser() - DRIVER INITIALISED....!
+[INFO ] 2023-04-29 14:45:33,662 ReusableFunctions.launchURL() - https://magento.softwaretestingboard.com/ launched in browser
+[INFO ] 2023-04-29 14:45:36,787 ReusableFunctions.clickObject() - SingIn[Header] Button Clicked
+[INFO ] 2023-04-29 14:45:38,972 ReusableFunctions.clickObject() - username clicked Clicked
+[INFO ] 2023-04-29 14:45:40,049 ReusableFunctions.typeValue() - utkarshpsingh@gmail.com Typed in  userName
+[INFO ] 2023-04-29 14:45:42,178 ReusableFunctions.clickObject() - password clicked Clicked
+[INFO ] 2023-04-29 14:45:43,219 ReusableFunctions.typeValue() - System2023 Typed in  password
+[INFO ] 2023-04-29 14:45:48,065 ReusableFunctions.clickObject() - SignIn Clicked
+[INFO ] 2023-04-29 14:45:48,065 LoginController.loginToApplication() - Hey..! Login Successful....!
+[INFO ] 2023-04-29 14:45:51,666 ReusableFunctions.clickObject() - Gear Link Clicked
+[INFO ] 2023-04-29 14:45:55,424 ReusableFunctions.clickObject() - Watches Link Clicked
+[INFO ] 2023-04-29 14:45:57,709 ReusableFunctions.clickObject() - Add To Cart Clicked
+[INFO ] 2023-04-29 14:46:04,876 ReusableFunctions.clickObject() - Show Cart Clicked
+[INFO ] 2023-04-29 14:46:08,976 ReusableFunctions.clickObject() - Proceed To Checkout Clicked
+[INFO ] 2023-04-29 14:46:10,921 ReusableFunctions.elementPresentOrEnabled() - Shipping Page Title is Present on the page
+[INFO ] 2023-04-29 14:46:11,285 ReusableFunctions.scrollIntoView() - Next Button scrolled into view 
+[INFO ] 2023-04-29 14:46:13,428 ReusableFunctions.clickObject() - Next Button Clicked
+[INFO ] 2023-04-29 14:46:13,476 ReusableFunctions.elementPresentOrEnabled() - PaymentPage Title is Present on the page
+[INFO ] 2023-04-29 14:46:17,388 ReusableFunctions.clickObject() - Place Order Button Clicked
+[INFO ] 2023-04-29 14:46:17,495 ReusableFunctions.getText() - Checkout Extracted from element
+[INFO ] 2023-04-29 14:46:19,580 BaseSetupClass.LaunchBrowser() - DRIVER INITIALISED....!
+[INFO ] 2023-04-29 14:46:24,569 ReusableFunctions.launchURL() - https://magento.softwaretestingboard.com/ launched in browser
+[INFO ] 2023-04-29 14:46:27,770 ReusableFunctions.clickObject() - SingIn[Header] Button Clicked
+[INFO ] 2023-04-29 14:46:29,935 ReusableFunctions.clickObject() - username clicked Clicked
+[INFO ] 2023-04-29 14:46:31,009 ReusableFunctions.typeValue() - utkarshpsingh@gmail.com Typed in  userName
+[INFO ] 2023-04-29 14:46:33,092 ReusableFunctions.clickObject() - password clicked Clicked
+[INFO ] 2023-04-29 14:46:34,128 ReusableFunctions.typeValue() - System2023 Typed in  password
+[INFO ] 2023-04-29 14:46:38,517 ReusableFunctions.clickObject() - SignIn Clicked
+[INFO ] 2023-04-29 14:46:38,517 LoginController.loginToApplication() - Hey..! Login Successful....!
+[INFO ] 2023-04-29 14:46:42,694 ReusableFunctions.clickObject() - Gear Link Clicked
+[INFO ] 2023-04-29 14:46:46,550 ReusableFunctions.clickObject() - Watches Link Clicked
+[INFO ] 2023-04-29 14:46:48,858 ReusableFunctions.clickObject() - Add To Cart Clicked
+[INFO ] 2023-04-29 14:46:56,023 ReusableFunctions.clickObject() - Show Cart Clicked
+[INFO ] 2023-04-29 14:46:59,739 ReusableFunctions.clickObject() - Proceed To Checkout Clicked
+[INFO ] 2023-04-29 14:47:01,798 ReusableFunctions.elementPresentOrEnabled() - Shipping Page Title is Present on the page
+[INFO ] 2023-04-29 14:47:02,436 ReusableFunctions.scrollIntoView() - Next Button scrolled into view 
+[INFO ] 2023-04-29 14:47:04,563 ReusableFunctions.clickObject() - Next Button Clicked
+[INFO ] 2023-04-29 14:47:04,605 ReusableFunctions.elementPresentOrEnabled() - PaymentPage Title is Present on the page
+[INFO ] 2023-04-29 14:47:10,112 ReusableFunctions.clickObject() - Place Order Button Clicked
+[INFO ] 2023-04-29 14:47:10,201 ReusableFunctions.getText() - Checkout Extracted from element

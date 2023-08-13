@@ -1,0 +1,78 @@
+[DEBUG] 2023-04-29 16:49:02,465 InternalLoggerFactory.useLog4J2LoggerFactory() - Using Log4J2 as the default logging framework
+[DEBUG] 2023-04-29 16:49:02,486 ResourceLeakDetector.<clinit>() - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-04-29 16:49:02,487 ResourceLeakDetector.<clinit>() - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-04-29 16:49:02,494 ResourceLeakDetectorFactory.newResourceLeakDetector() - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2a685eba
+[DEBUG] 2023-04-29 16:49:02,518 PlatformDependent0.explicitNoUnsafeCause0() - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-04-29 16:49:02,518 PlatformDependent0.javaVersion0() - Java version: 11
+[DEBUG] 2023-04-29 16:49:02,521 PlatformDependent0.<clinit>() - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-04-29 16:49:02,522 PlatformDependent0.<clinit>() - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-04-29 16:49:02,523 PlatformDependent0.<clinit>() - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-04-29 16:49:02,524 PlatformDependent0.<clinit>() - java.nio.Buffer.address: available
+[DEBUG] 2023-04-29 16:49:02,525 PlatformDependent0.<clinit>() - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-04-29 16:49:02,526 PlatformDependent0.<clinit>() - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-04-29 16:49:02,528 PlatformDependent0.<clinit>() - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @30af7377
+[DEBUG] 2023-04-29 16:49:02,530 PlatformDependent0.<clinit>() - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-04-29 16:49:02,530 PlatformDependent.unsafeUnavailabilityCause0() - sun.misc.Unsafe: available
+[DEBUG] 2023-04-29 16:49:02,531 PlatformDependent.estimateMaxDirectMemory() - maxDirectMemory: 4190109696 bytes (maybe)
+[DEBUG] 2023-04-29 16:49:02,532 PlatformDependent.tmpdir0() - -Dio.netty.tmpdir: C:\Users\UTKARS~1\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-04-29 16:49:02,532 PlatformDependent.bitMode0() - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-04-29 16:49:02,533 PlatformDependent.isWindows0() - Platform: Windows
+[DEBUG] 2023-04-29 16:49:02,534 PlatformDependent.<clinit>() - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-04-29 16:49:02,535 PlatformDependent.<clinit>() - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-04-29 16:49:02,537 CleanerJava9.<clinit>() - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-04-29 16:49:02,537 PlatformDependent.<clinit>() - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-04-29 16:49:02,545 PlatformDependent.<clinit>() - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-04-29 16:49:02,562 InternalThreadLocalMap.<clinit>() - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-04-29 16:49:02,562 InternalThreadLocalMap.<clinit>() - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-04-29 16:49:02,735 JdkSslContext.<clinit>() - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-04-29 16:49:02,735 JdkSslContext.<clinit>() - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-04-29 16:49:02,758 MultithreadEventLoopGroup.<clinit>() - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2023-04-29 16:49:02,766 NioEventLoop.<clinit>() - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-04-29 16:49:02,766 NioEventLoop.<clinit>() - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-04-29 16:49:02,808 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.numHeapArenas: 16
+[DEBUG] 2023-04-29 16:49:02,808 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.numDirectArenas: 16
+[DEBUG] 2023-04-29 16:49:02,808 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-04-29 16:49:02,808 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-04-29 16:49:02,808 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-04-29 16:49:02,808 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-04-29 16:49:02,809 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-04-29 16:49:02,809 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-04-29 16:49:02,809 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-04-29 16:49:02,809 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-04-29 16:49:02,809 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-04-29 16:49:02,809 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-04-29 16:49:02,821 ByteBufUtil.<clinit>() - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-04-29 16:49:02,822 ByteBufUtil.<clinit>() - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-04-29 16:49:02,822 ByteBufUtil.<clinit>() - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-04-29 16:49:03,597 DefaultChannelId.<clinit>() - -Dio.netty.processId: 2984 (auto-detected)
+[DEBUG] 2023-04-29 16:49:03,597 NetUtil.<clinit>() - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-04-29 16:49:03,599 NetUtil.<clinit>() - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-04-29 16:49:03,815 NetUtilInitializations.determineLoopback() - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-04-29 16:49:03,816 NetUtil.run() - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-04-29 16:49:04,073 DefaultChannelId.<clinit>() - -Dio.netty.machineId: 00:15:5d:ff:fe:b6:48:b2 (auto-detected)
+[DEBUG] 2023-04-29 16:49:04,116 AbstractByteBuf.<clinit>() - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-04-29 16:49:04,117 AbstractByteBuf.<clinit>() - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-04-29 16:49:04,117 ResourceLeakDetectorFactory.newResourceLeakDetector() - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@31d58133
+[DEBUG] 2023-04-29 16:49:04,130 Recycler.<clinit>() - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-04-29 16:49:04,130 Recycler.<clinit>() - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-04-29 16:49:04,136 Recycler.<clinit>() - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-04-29 16:49:04,136 Recycler.<clinit>() - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-04-29 16:49:04,727 Brotli.<clinit>() - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-04-29 16:49:04,840 ThreadLocalRandom.newSeed() - -Dio.netty.initialSeedUniquifier: 0xd56eef7ae0e085ec
+[INFO ] 2023-04-29 16:49:04,898 BaseSetupClass.LaunchBrowser() - DRIVER INITIALISED....!
+[INFO ] 2023-04-29 16:49:09,148 ReusableFunctions.launchURL() - https://magento.softwaretestingboard.com/ launched in browser
+[INFO ] 2023-04-29 16:49:12,274 ReusableFunctions.clickObject() - SingIn[Header] Button Clicked
+[INFO ] 2023-04-29 16:49:14,457 ReusableFunctions.clickObject() - username clicked Clicked
+[INFO ] 2023-04-29 16:49:15,539 ReusableFunctions.typeValue() - utkarshpsingh@gmail.com Typed in  userName
+[INFO ] 2023-04-29 16:49:17,661 ReusableFunctions.clickObject() - password clicked Clicked
+[INFO ] 2023-04-29 16:49:18,713 ReusableFunctions.typeValue() - System2023 Typed in  password
+[INFO ] 2023-04-29 16:49:23,038 ReusableFunctions.clickObject() - SignIn Clicked
+[INFO ] 2023-04-29 16:49:23,039 LoginController.loginToApplication() - Hey..! Login Successful....!
+[INFO ] 2023-04-29 16:49:26,822 ReusableFunctions.clickObject() - Gear Link Clicked
+[INFO ] 2023-04-29 16:49:30,066 ReusableFunctions.clickObject() - Watches Link Clicked
+[INFO ] 2023-04-29 16:49:32,392 ReusableFunctions.clickObject() - Add To Cart Clicked
+[INFO ] 2023-04-29 16:49:39,551 ReusableFunctions.clickObject() - Show Cart Clicked
+[INFO ] 2023-04-29 16:49:45,306 ReusableFunctions.clickObject() - View/Edit Cart Clicked
+[INFO ] 2023-04-29 16:49:45,354 ReusableFunctions.elementPresentOrEnabled() - Added To cart Item is Present on the page
+[INFO ] 2023-04-29 16:49:47,462 ReusableFunctions.getText() - $92.00 Extracted from element
+[INFO ] 2023-04-29 16:49:51,275 ReusableFunctions.clickObject() - Remove Item From Cart Clicked

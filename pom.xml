@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.magento</groupId>
+  <artifactId>Magento_Automation</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>Magento_Automation</name>
+  <!-- FIXME change it to the project's website -->
+  <url>https://magento.softwaretestingboard.com/</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+      <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+      <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.4.0</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/commons-configuration/commons-configuration -->
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-configuration2</artifactId>
+        <version>2.7</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+      <dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>2.6</version>
+      </dependency>
+
+       <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>4.1.2</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>4.1.2</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+      <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.1.0</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.apache.maven/maven-plugin-api -->
+      <dependency>
+        <groupId>org.apache.maven</groupId>
+        <artifactId>maven-plugin-api</artifactId>
+        <version>3.6.3</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+      <dependency>
+          <groupId>com.aventstack</groupId>
+          <artifactId>extentreports</artifactId>
+          <version>5.0.9</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+      <dependency>
+          <groupId>org.apache.logging.log4j</groupId>
+          <artifactId>log4j-core</artifactId>
+          <version>2.20.0</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+      <dependency>
+          <groupId>org.apache.logging.log4j</groupId>
+          <artifactId>log4j-api</artifactId>
+          <version>2.20.0</version>
+      </dependency>
+
+      <dependency>
+          <groupId>tech.grasshopper</groupId>
+          <artifactId>htmlextentreporter</artifactId>
+          <version>1.0.1</version>
+      </dependency>
+
+
+  </dependencies>
+
+    <build>
+        <!-- Source directory configuration -->
+
+        <sourceDirectory>src</sourceDirectory>
+
+        <pluginManagement>
+            <plugins>
+                <!-- Following plugin executes the testNG tests -->
+                <plugin>
+
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>2.12.2</version>
+
+                    <configuration>
+                        <printSummary>true</printSummary>
+                        <!-- Suite testng xml file to consider for test execution -->
+                        <suiteXmlFiles>
+                            <suiteXmlFile>testngXmlFiles/regression.xml</suiteXmlFile>
+                        </suiteXmlFiles>
+                    </configuration>
+
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>2.8.2</version>
+                </plugin>
+
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.1</version>
+                    <configuration>
+                        <!-- http://maven.apache.org/plugins/maven-compiler-plugin/ -->
+                        <source>11</source>
+                        <target>11</target>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.mortbay.jetty</groupId>
+                    <artifactId>jetty-maven-plugin</artifactId>
+                    <version>7.4.5.v20110725</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-site-plugin</artifactId>
+                    <version>3.9.1</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+</project>
