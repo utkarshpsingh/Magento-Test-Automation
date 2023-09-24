@@ -1,0 +1,53 @@
+[DEBUG] 2023-09-23 12:11:34,418 InternalLoggerFactory.useLog4J2LoggerFactory() - Using Log4J2 as the default logging framework
+[DEBUG] 2023-09-23 12:11:34,582 ResourceLeakDetector.<clinit>() - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-09-23 12:11:34,583 ResourceLeakDetector.<clinit>() - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-09-23 12:11:34,604 ResourceLeakDetectorFactory.newResourceLeakDetector() - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@70cccd8f
+[DEBUG] 2023-09-23 12:11:34,825 PlatformDependent0.explicitNoUnsafeCause0() - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-09-23 12:11:34,827 PlatformDependent0.javaVersion0() - Java version: 11
+[DEBUG] 2023-09-23 12:11:34,838 PlatformDependent0.<clinit>() - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-09-23 12:11:34,843 PlatformDependent0.<clinit>() - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-09-23 12:11:34,849 PlatformDependent0.<clinit>() - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-09-23 12:11:34,854 PlatformDependent0.<clinit>() - java.nio.Buffer.address: available
+[DEBUG] 2023-09-23 12:11:34,860 PlatformDependent0.<clinit>() - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-09-23 12:11:34,866 PlatformDependent0.<clinit>() - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-09-23 12:11:34,875 PlatformDependent0.<clinit>() - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @1ded7b14
+[DEBUG] 2023-09-23 12:11:34,882 PlatformDependent0.<clinit>() - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[DEBUG] 2023-09-23 12:11:34,883 PlatformDependent.unsafeUnavailabilityCause0() - sun.misc.Unsafe: available
+[DEBUG] 2023-09-23 12:11:34,886 PlatformDependent.estimateMaxDirectMemory() - maxDirectMemory: 3187671040 bytes (maybe)
+[DEBUG] 2023-09-23 12:11:34,887 PlatformDependent.tmpdir0() - -Dio.netty.tmpdir: C:\Users\LENOVO\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-09-23 12:11:34,888 PlatformDependent.bitMode0() - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-09-23 12:11:34,890 PlatformDependent.isWindows0() - Platform: Windows
+[DEBUG] 2023-09-23 12:11:34,900 PlatformDependent.<clinit>() - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-09-23 12:11:34,901 PlatformDependent.<clinit>() - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-09-23 12:11:34,911 CleanerJava9.<clinit>() - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-09-23 12:11:34,913 PlatformDependent.<clinit>() - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-09-23 12:11:35,030 PlatformDependent.<clinit>() - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-09-23 12:11:35,271 InternalThreadLocalMap.<clinit>() - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-09-23 12:11:35,273 InternalThreadLocalMap.<clinit>() - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-09-23 12:11:36,325 JdkSslContext.<clinit>() - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-09-23 12:11:36,328 JdkSslContext.<clinit>() - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-09-23 12:11:36,514 GlobalEventExecutor.<clinit>() - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[DEBUG] 2023-09-23 12:11:36,686 MultithreadEventLoopGroup.<clinit>() - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2023-09-23 12:11:36,810 NioEventLoop.<clinit>() - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-09-23 12:11:36,812 NioEventLoop.<clinit>() - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-09-23 12:11:37,067 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2023-09-23 12:11:37,069 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2023-09-23 12:11:37,070 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-09-23 12:11:37,071 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-09-23 12:11:37,073 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-09-23 12:11:37,074 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-09-23 12:11:37,075 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-09-23 12:11:37,077 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-09-23 12:11:37,078 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-09-23 12:11:37,079 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-09-23 12:11:37,081 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-09-23 12:11:37,082 PooledByteBufAllocator.<clinit>() - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-09-23 12:11:37,179 ByteBufUtil.<clinit>() - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-09-23 12:11:37,180 ByteBufUtil.<clinit>() - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-09-23 12:11:37,181 ByteBufUtil.<clinit>() - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[ERROR] 2023-09-23 12:13:30,905 BaseSetupClass.LaunchBrowser() - Exception in browser initialization!!! : Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-92QFUF6', ip: '192.168.29.218'
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, chrome.switches: [--ignore-certificate-errors], goog:chromeOptions: {args: [--remote-allow-origins=*], binary: C:\Program Files (x86)\Goog..., extensions: [], prefs: {profile.default_content_settings.popups: 0}}}]}]

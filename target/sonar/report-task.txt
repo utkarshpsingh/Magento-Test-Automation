@@ -1,0 +1,6 @@
+projectKey=org.magento:Magento_Automation
+serverUrl=http://localhost:9000
+serverVersion=9.9.2.77730
+dashboardUrl=http://localhost:9000/dashboard?id=org.magento%3AMagento_Automation
+ceTaskId=AYrGfBItu2AjJ3ghOvsr
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYrGfBItu2AjJ3ghOvsr

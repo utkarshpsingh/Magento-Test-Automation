@@ -1,0 +1,5 @@
+test\java\org\magento\testCases_web\LoginInPage\LogIn_Test.class
+test\java\org\magento\testCases_web\shoppingCart\PlaceOrderTest.class
+test\java\org\magento\testCases_web\homePage\AddToWishListTest.class
+test\java\org\magento\testCases_web\createAccountPage\CreateAccountTest.class
+test\java\org\magento\testCases_web\shoppingCart\AddItemToCartTest.class

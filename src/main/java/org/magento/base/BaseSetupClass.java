@@ -29,8 +29,6 @@ import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class BaseSetupClass {
-
-
 	Logger log = LogManager.getLogger(BaseSetupClass.class);
 	Properties objProperties = new Properties();
 	{
@@ -44,9 +42,9 @@ public class BaseSetupClass {
 
 	public ApplicationController App = null;
 	public Utilites commonFunctions = new Utilites();
-	public static Integer implicitWait =10;
-	public static Integer pageLoadTimeout =15;
-	public static Integer explicitWait =20;
+	public static Integer implicitWait;
+	public static Integer pageLoadTimeout;
+	public static Integer explicitWait;
 	public TestScenarioDataController dataController =null;
 	private ConcurrentHashMap<String, ConcurrentHashMap<String, Object>> getData;
 	public static ExtentReporting extentReporting;
@@ -55,12 +53,6 @@ public class BaseSetupClass {
 	public static ExtentTest test;
 
 	// ==========================BROWSER VARIABLES============================================
-	public static final String CHROME_DRIVER_KEY = "webdriver.chrome.driver";
-	public static final String CHROME_DRIVER_EXE = "/Lib/chromedriver.exe";
-	public static final String IE_DRIVER_KEY = "webdriver.ie.driver";
-	public static final String IE_DRIVER_EXE = "/Lib/IEDriverServer.exe";
-	public static final String FIREFOX_DRIVER_KEY = "webdriver.gecko.driver";
-	public static final String FIREFOX_DRIVER_EXE = "/Lib/geckodriver.exe";
 
 	public String browser = null;
 	public BROWSER selectedBrowser;
@@ -72,8 +64,8 @@ public class BaseSetupClass {
 
 	public BaseSetupClass(){
 		dataController= new TestScenarioDataController();
-
 	}
+
 	public enum BROWSER {
 		firefox, ie, chrome
 	}
@@ -117,8 +109,6 @@ public class BaseSetupClass {
 			switch (selectedBrowser) {
 
 			case firefox: {
-
-				System.setProperty(FIREFOX_DRIVER_KEY, System.getProperty("user.dir")+ FIREFOX_DRIVER_EXE);
 				localDriver = new FirefoxDriver();
 				break;
 			}
@@ -128,24 +118,18 @@ public class BaseSetupClass {
 				HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
 				chromePrefs.put("profile.default_content_settings.popups", 0);
 				ChromeOptions options = new ChromeOptions();
-				options.addArguments("--remote-allow-origins=*");
+				//options.addArguments("--remote-allow-origins=*");
 				options.setExperimentalOption("prefs", chromePrefs);
-				options.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-				options.setCapability("chrome.switches", Arrays.asList("--ignore-certificate-errors"));
+				options.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
+				//options.setCapability("chrome.switches", Arrays.asList("--ignore-certificate-errors"));
 
-				System.setProperty(CHROME_DRIVER_KEY, System.getProperty("user.dir")+ CHROME_DRIVER_EXE);
 				localDriver = new ChromeDriver(options);
-
-				log.info("DRIVER INITIALISED....!");
-
 				break;
 			}
 
 			case ie: {
 
-				System.setProperty(IE_DRIVER_KEY, System.getProperty("user.dir")+ IE_DRIVER_EXE);
 				localDriver = new InternetExplorerDriver();
-
 				break;
 			}
 			default: {
@@ -153,7 +137,7 @@ public class BaseSetupClass {
 			}
 
 			}
-
+			log.info("DRIVER INITIALISED....!");
 
 		} catch (Throwable exp) {
 			log.error("Exception in browser initialization!!! : " + exp.getMessage());
